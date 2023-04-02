@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+ body{
+    background-image: url("background.jpg");
+   
+    height: 100vh;
+    width: 100%;
+
+ }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(10, 10, 10, 0.549);
+    color: #fff;
+    font-size: 18px;
+    padding: 1px 2px;
+  }
+  
+
+   nav img{
+    width: 50px;
+    border-radius: 50px;
+  }
+  
+  h5{
+    margin-left: -210px;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  
+  .nav-links li {
+    list-style: none;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  .nav-links a:hover{
+    color: rgb(175, 129, 54);
+  }
+   
+  
+  
+
+  .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+
+}
+.content {
+   margin-top: 70px;
+   margin-bottom: 20px;
+    width: 80%;
+    height: 80%;
+   background: rgba(14, 14, 14, 0.549);
+   border-radius: 30px;
+overflow: hidden;
+}
+
+  .content .logo{
+   margin: 20px 50px;
+   margin-top: -500px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.content .text {
+    color: #fff;
+    width: 40%;
+
+}
+.content .text h2 {
+    font-size: 40px;
+    text-transform: lowercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.content .text p{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+
+}
+ .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+ }
+ .card{
+  border-radius: 20px;
+ }
+ .card-img{
+  border-radius: 20px;
+ }
+     
+ 
+ .card-img-two{
+  border-radius: 20px;
+  width: 50%px;
+  height: 290px;
+ }
+
+ footer {
+  
+  background-color: #0000006d;
+  padding: 50px 0;
+  font-family: Arial, sans-serif;
+}
+
+footer h4 {
+  color: #fefefe;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fefefe;
+  line-height: 1.5;
+}
+
+footer ul {
+  
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  
+  margin-right: 20px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  footer .col-md-4 {
+    margin-bottom: 30px;
+  }
+}
+
+
+  
+  
+@media screen and (max-width: 768px) {
+
+
+  .nav-links {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+  
